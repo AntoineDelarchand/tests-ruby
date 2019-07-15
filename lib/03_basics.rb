@@ -14,3 +14,15 @@ def who_is_bigger(a, b, c)
         return cbigger
     end
 end
+
+def reverse_upcase_noLTA(phrase)
+    phrase = phrase.reverse.upcase.delete "LTA"
+    return phrase
+end
+
+def array_42(array)
+    return array.include?(42)
+end
+
+def magic_array(array)
+    
